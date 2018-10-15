@@ -168,6 +168,5 @@ copy_file_buffer(int source_fd, int target_fd, size_t buffer_size)
 static void
 usage(void)
 {
- //(void)fprintf(stderr, "usage: %s source target\n", getprogname());
   exit(EXIT_FAILURE);
 }
